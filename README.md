@@ -363,10 +363,12 @@ El ejecutable utilizado se encuentra en:
 mqtt/mosquitto/mosquitto
 ```
 
-Mosquitto se distribuye bajo **Eclipse Public License 2.0 o BSD 3-Clause**. El paquete fuente conserva los archivos de licencia y avisos correspondientes.
-- [Licencia de Eclipse Mosquitto](https://github.com/eclipse-mosquitto/mosquitto/blob/master/LICENSE.txt)
-- [Eclipse Public License 2.0](https://www.eclipse.org/legal/epl-2.0/)
-- [Eclipse Distribution License 1.0](https://www.eclipse.org/org/documents/edl-v10.php)
+Eclipse Mosquitto se distribuye bajo una licencia dual: **Eclipse Public License 2.0 (EPL-2.0) o Eclipse Distribution License 1.0 (EDL-1.0)**. El proyecto identifica estas alternativas mediante `SPDX-License-Identifier: EPL-2.0 OR BSD-3-Clause`.
+Los archivos de licencia correspondientes están incluidos en el repositorio de Mosquitto:
+- [`epl-v20`](https://github.com/eclipse-mosquitto/mosquitto/blob/master/epl-v20)
+- [`edl-v10`](https://github.com/eclipse-mosquitto/mosquitto/blob/master/edl-v10)
+- [`LICENSE.txt`](https://github.com/eclipse-mosquitto/mosquitto/blob/master/LICENSE.txt)
+
 
 ### cJSON
 El archivo:
