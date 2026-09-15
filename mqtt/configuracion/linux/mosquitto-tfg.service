@@ -1,0 +1,12 @@
+[Unit]
+Description=Broker MQTT del TFG
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/mosquitto-tfg -c /etc/mosquitto/mosquitto.conf -v
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

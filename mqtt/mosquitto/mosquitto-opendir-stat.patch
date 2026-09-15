@@ -1,0 +1,32 @@
+--- src/conf.c.original-tfg	2026-09-04 18:37:42.934577638 +0000
++++ src/conf.c	2026-09-04 18:38:04.422359183 +0000
+@@ -28,6 +28,7 @@
+ #else
+ #  include <dirent.h>
+ #  include <strings.h>
++#  include <sys/stat.h>
+ #endif
+ 
+ #ifndef WIN32
+@@ -2938,16 +2939,12 @@
+ 	char *buf;
+ 	int buflen;
+ #ifndef WIN32
+-	DIR *dir;
+-#endif
++   struct stat st;
+ 
+-#ifndef WIN32
+-	dir = opendir(file);
+-	if(dir){
+-		closedir(dir);
+-		log__printf(NULL, MOSQ_LOG_ERR, "Error: Config file '%s' is a directory.", file);
+-		return 1;
+-	}
++   if(stat(file, &st) == 0 && S_ISDIR(st.st_mode)){
++           log__printf(NULL, MOSQ_LOG_ERR, "Error: Config file '%s' is a directory.", file);
++           return 1;
++   }
+ #endif
+ 
+ 	fptr = mosquitto_fopen(file, "rt", false);

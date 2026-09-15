@@ -1,0 +1,151 @@
+❯  Starting publish benchmark, connections: 10, req interval: 10ms, message interval: 20ms
+...  [0/10] - Connecting...
+√  [1/10] - Connected
+...  [1/10] - Connecting...
+√  [2/10] - Connected
+...  [2/10] - Connecting...
+√  [3/10] - Connected
+...  [3/10] - Connecting...
+√  [4/10] - Connected
+...  [4/10] - Connecting...
+√  [5/10] - Connected
+...  [5/10] - Connecting...
+√  [6/10] - Connected
+...  [6/10] - Connecting...
+√  [7/10] - Connected
+...  [7/10] - Connecting...
+√  [8/10] - Connected
+...  [8/10] - Connecting...
+√  [9/10] - Connected
+...  [9/10] - Connecting...
+√  [10/10] - Connected
+√  Created 10 connections in 0.165s
+Published total: 281, message rate: 281/s
+Published total: 631, message rate: 350/s
+Published total: 998, message rate: 367/s
+Published total: 1423, message rate: 425/s
+Published total: 1834, message rate: 411/s
+Published total: 2196, message rate: 362/s
+Published total: 2629, message rate: 433/s
+Published total: 2975, message rate: 346/s
+Published total: 3359, message rate: 384/s
+Published total: 3775, message rate: 416/s
+Published total: 4210, message rate: 435/s
+Published total: 4569, message rate: 359/s
+Published total: 4964, message rate: 395/s
+Published total: 5394, message rate: 430/s
+Published total: 5720, message rate: 326/s
+Published total: 6131, message rate: 411/s
+Published total: 6544, message rate: 413/s
+Published total: 6940, message rate: 396/s
+Published total: 7320, message rate: 380/s
+Published total: 7723, message rate: 403/s
+Published total: 8070, message rate: 347/s
+Published total: 8423, message rate: 353/s
+Published total: 8863, message rate: 440/s
+Published total: 9232, message rate: 369/s
+Published total: 9647, message rate: 415/s
+Published total: 10056, message rate: 409/s
+Published total: 10440, message rate: 384/s
+Published total: 10832, message rate: 392/s
+Published total: 11197, message rate: 365/s
+Published total: 11549, message rate: 352/s
+Published total: 11933, message rate: 384/s
+Published total: 12335, message rate: 402/s
+Published total: 12732, message rate: 397/s
+Published total: 13117, message rate: 385/s
+Published total: 13523, message rate: 406/s
+Published total: 13913, message rate: 390/s
+Published total: 14254, message rate: 341/s
+Published total: 14685, message rate: 431/s
+Published total: 15064, message rate: 379/s
+Published total: 15469, message rate: 405/s
+Published total: 15795, message rate: 326/s
+Published total: 16223, message rate: 428/s
+Published total: 16638, message rate: 415/s
+Published total: 17020, message rate: 382/s
+Published total: 17397, message rate: 377/s
+Published total: 17771, message rate: 374/s
+Published total: 18124, message rate: 353/s
+Published total: 18506, message rate: 382/s
+Published total: 18926, message rate: 420/s
+Published total: 19292, message rate: 366/s
+Published total: 19716, message rate: 424/s
+Published total: 20062, message rate: 346/s
+Published total: 20452, message rate: 390/s
+Published total: 20898, message rate: 446/s
+Published total: 21264, message rate: 366/s
+Published total: 21668, message rate: 404/s
+Published total: 22074, message rate: 406/s
+Published total: 22453, message rate: 379/s
+Published total: 22832, message rate: 379/s
+Published total: 23185, message rate: 353/s
+Published total: 23616, message rate: 431/s
+Published total: 23975, message rate: 359/s
+Published total: 24344, message rate: 369/s
+Published total: 24747, message rate: 403/s
+Published total: 25155, message rate: 408/s
+Published total: 25527, message rate: 372/s
+Published total: 25929, message rate: 402/s
+Published total: 26308, message rate: 379/s
+Published total: 26695, message rate: 387/s
+Published total: 27046, message rate: 351/s
+Published total: 27466, message rate: 420/s
+Published total: 27854, message rate: 388/s
+Published total: 28264, message rate: 410/s
+Published total: 28605, message rate: 341/s
+Published total: 29043, message rate: 438/s
+Published total: 29463, message rate: 420/s
+Published total: 29810, message rate: 347/s
+Published total: 30221, message rate: 411/s
+Published total: 30601, message rate: 380/s
+Published total: 31006, message rate: 405/s
+Published total: 31434, message rate: 428/s
+Published total: 31787, message rate: 353/s
+Published total: 32225, message rate: 438/s
+Published total: 32632, message rate: 407/s
+Published total: 32984, message rate: 352/s
+Published total: 33394, message rate: 410/s
+Published total: 33755, message rate: 361/s
+Published total: 34130, message rate: 375/s
+Published total: 34557, message rate: 427/s
+Published total: 34921, message rate: 364/s
+Published total: 35321, message rate: 400/s
+Published total: 35729, message rate: 408/s
+Published total: 36099, message rate: 370/s
+Published total: 36478, message rate: 379/s
+Published total: 36849, message rate: 371/s
+Published total: 37205, message rate: 356/s
+Published total: 37630, message rate: 425/s
+Published total: 37975, message rate: 345/s
+Published total: 38417, message rate: 442/s
+Published total: 38802, message rate: 385/s
+Published total: 39200, message rate: 398/s
+Published total: 39552, message rate: 352/s
+Published total: 39977, message rate: 425/s
+Published total: 40339, message rate: 362/s
+Published total: 40752, message rate: 413/s
+Published total: 41138, message rate: 386/s
+Published total: 41529, message rate: 391/s
+Published total: 41937, message rate: 408/s
+Published total: 42282, message rate: 345/s
+Published total: 42720, message rate: 438/s
+Published total: 43093, message rate: 373/s
+Published total: 43485, message rate: 392/s
+Published total: 43879, message rate: 394/s
+Published total: 44227, message rate: 348/s
+Published total: 44632, message rate: 405/s
+Published total: 45044, message rate: 412/s
+Published total: 45433, message rate: 389/s
+Published total: 45794, message rate: 361/s
+Published total: 46238, message rate: 444/s
+Published total: 46596, message rate: 358/s
+Published total: 47017, message rate: 421/s
+Published total: 47362, message rate: 345/s
+Published total: 47781, message rate: 419/s
+Published total: 48182, message rate: 401/s
+Published total: 48577, message rate: 395/s
+Published total: 48916, message rate: 339/s
+Published total: 49346, message rate: 430/s
+Published total: 49753, message rate: 407/s
+Published total: 50000, message rate: 247/s

@@ -1,0 +1,14 @@
+[Unit]
+Description=Servicio HTTP del TFG
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=servidor-http-tfg
+Group=servidor-http-tfg
+ExecStart=/usr/local/bin/servidor-http-tfg
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

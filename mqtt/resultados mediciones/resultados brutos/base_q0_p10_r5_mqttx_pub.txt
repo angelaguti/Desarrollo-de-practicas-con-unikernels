@@ -1,0 +1,176 @@
+❯  Starting publish benchmark, connections: 10, req interval: 10ms, message interval: 20ms
+...  [0/10] - Connecting...
+√  [1/10] - Connected
+...  [1/10] - Connecting...
+√  [2/10] - Connected
+...  [2/10] - Connecting...
+√  [3/10] - Connected
+...  [3/10] - Connecting...
+√  [4/10] - Connected
+...  [4/10] - Connecting...
+√  [5/10] - Connected
+...  [5/10] - Connecting...
+√  [6/10] - Connected
+...  [6/10] - Connecting...
+√  [7/10] - Connected
+...  [7/10] - Connecting...
+√  [8/10] - Connected
+...  [8/10] - Connecting...
+√  [9/10] - Connected
+...  [9/10] - Connecting...
+√  [10/10] - Connected
+√  Created 10 connections in 0.157s
+Published total: 323, message rate: 323/s
+Published total: 653, message rate: 330/s
+Published total: 983, message rate: 330/s
+Published total: 1303, message rate: 320/s
+Published total: 1633, message rate: 330/s
+Published total: 1953, message rate: 320/s
+Published total: 2283, message rate: 330/s
+Published total: 2603, message rate: 320/s
+Published total: 2933, message rate: 330/s
+Published total: 3253, message rate: 320/s
+Published total: 3583, message rate: 330/s
+Published total: 3903, message rate: 320/s
+Published total: 4233, message rate: 330/s
+Published total: 4553, message rate: 320/s
+Published total: 4883, message rate: 330/s
+Published total: 5213, message rate: 330/s
+Published total: 5543, message rate: 330/s
+Published total: 5873, message rate: 330/s
+Published total: 6193, message rate: 320/s
+Published total: 6523, message rate: 330/s
+Published total: 6843, message rate: 320/s
+Published total: 7173, message rate: 330/s
+Published total: 7493, message rate: 320/s
+Published total: 7823, message rate: 330/s
+Published total: 8143, message rate: 320/s
+Published total: 8473, message rate: 330/s
+Published total: 8793, message rate: 320/s
+Published total: 9123, message rate: 330/s
+Published total: 9443, message rate: 320/s
+Published total: 9773, message rate: 330/s
+Published total: 10093, message rate: 320/s
+Published total: 10423, message rate: 330/s
+Published total: 10743, message rate: 320/s
+Published total: 11073, message rate: 330/s
+Published total: 11393, message rate: 320/s
+Published total: 11723, message rate: 330/s
+Published total: 12043, message rate: 320/s
+Published total: 12373, message rate: 330/s
+Published total: 12693, message rate: 320/s
+Published total: 13023, message rate: 330/s
+Published total: 13343, message rate: 320/s
+Published total: 13673, message rate: 330/s
+Published total: 13993, message rate: 320/s
+Published total: 14323, message rate: 330/s
+Published total: 14643, message rate: 320/s
+Published total: 14973, message rate: 330/s
+Published total: 15293, message rate: 320/s
+Published total: 15623, message rate: 330/s
+Published total: 15943, message rate: 320/s
+Published total: 16273, message rate: 330/s
+Published total: 16593, message rate: 320/s
+Published total: 16923, message rate: 330/s
+Published total: 17243, message rate: 320/s
+Published total: 17573, message rate: 330/s
+Published total: 17893, message rate: 320/s
+Published total: 18223, message rate: 330/s
+Published total: 18543, message rate: 320/s
+Published total: 18873, message rate: 330/s
+Published total: 19193, message rate: 320/s
+Published total: 19523, message rate: 330/s
+Published total: 19843, message rate: 320/s
+Published total: 20173, message rate: 330/s
+Published total: 20493, message rate: 320/s
+Published total: 20823, message rate: 330/s
+Published total: 21143, message rate: 320/s
+Published total: 21473, message rate: 330/s
+Published total: 21793, message rate: 320/s
+Published total: 22123, message rate: 330/s
+Published total: 22443, message rate: 320/s
+Published total: 22773, message rate: 330/s
+Published total: 23093, message rate: 320/s
+Published total: 23423, message rate: 330/s
+Published total: 23743, message rate: 320/s
+Published total: 24073, message rate: 330/s
+Published total: 24393, message rate: 320/s
+Published total: 24723, message rate: 330/s
+Published total: 25043, message rate: 320/s
+Published total: 25373, message rate: 330/s
+Published total: 25693, message rate: 320/s
+Published total: 26023, message rate: 330/s
+Published total: 26343, message rate: 320/s
+Published total: 26673, message rate: 330/s
+Published total: 26993, message rate: 320/s
+Published total: 27323, message rate: 330/s
+Published total: 27643, message rate: 320/s
+Published total: 27973, message rate: 330/s
+Published total: 28293, message rate: 320/s
+Published total: 28623, message rate: 330/s
+Published total: 28943, message rate: 320/s
+Published total: 29273, message rate: 330/s
+Published total: 29593, message rate: 320/s
+Published total: 29923, message rate: 330/s
+Published total: 30243, message rate: 320/s
+Published total: 30573, message rate: 330/s
+Published total: 30893, message rate: 320/s
+Published total: 31223, message rate: 330/s
+Published total: 31543, message rate: 320/s
+Published total: 31873, message rate: 330/s
+Published total: 32193, message rate: 320/s
+Published total: 32523, message rate: 330/s
+Published total: 32843, message rate: 320/s
+Published total: 33173, message rate: 330/s
+Published total: 33493, message rate: 320/s
+Published total: 33823, message rate: 330/s
+Published total: 34143, message rate: 320/s
+Published total: 34473, message rate: 330/s
+Published total: 34793, message rate: 320/s
+Published total: 35123, message rate: 330/s
+Published total: 35443, message rate: 320/s
+Published total: 35763, message rate: 320/s
+Published total: 36093, message rate: 330/s
+Published total: 36413, message rate: 320/s
+Published total: 36743, message rate: 330/s
+Published total: 37063, message rate: 320/s
+Published total: 37393, message rate: 330/s
+Published total: 37713, message rate: 320/s
+Published total: 38043, message rate: 330/s
+Published total: 38363, message rate: 320/s
+Published total: 38693, message rate: 330/s
+Published total: 39013, message rate: 320/s
+Published total: 39343, message rate: 330/s
+Published total: 39663, message rate: 320/s
+Published total: 39993, message rate: 330/s
+Published total: 40313, message rate: 320/s
+Published total: 40643, message rate: 330/s
+Published total: 40963, message rate: 320/s
+Published total: 41293, message rate: 330/s
+Published total: 41613, message rate: 320/s
+Published total: 41943, message rate: 330/s
+Published total: 42263, message rate: 320/s
+Published total: 42593, message rate: 330/s
+Published total: 42913, message rate: 320/s
+Published total: 43243, message rate: 330/s
+Published total: 43563, message rate: 320/s
+Published total: 43893, message rate: 330/s
+Published total: 44213, message rate: 320/s
+Published total: 44543, message rate: 330/s
+Published total: 44863, message rate: 320/s
+Published total: 45193, message rate: 330/s
+Published total: 45513, message rate: 320/s
+Published total: 45843, message rate: 330/s
+Published total: 46163, message rate: 320/s
+Published total: 46493, message rate: 330/s
+Published total: 46813, message rate: 320/s
+Published total: 47143, message rate: 330/s
+Published total: 47463, message rate: 320/s
+Published total: 47793, message rate: 330/s
+Published total: 48113, message rate: 320/s
+Published total: 48443, message rate: 330/s
+Published total: 48763, message rate: 320/s
+Published total: 49093, message rate: 330/s
+Published total: 49413, message rate: 320/s
+Published total: 49743, message rate: 330/s
+Published total: 50000, message rate: 257/s
