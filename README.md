@@ -64,6 +64,26 @@ Contiene los scripts PowerShell utilizados durante la campaña experimental:
 | `resumir_cargas.ps1` | Extrae del JSON de `oha` las métricas utilizadas en el análisis HTTP. |
 | `enviar_peticion_malformada.ps1` | Envía una petición TCP deliberadamente malformada para comprobar el tratamiento del error HTTP. |
 
+## Requisitos previos
+El procedimiento se probó con las siguientes herramientas:
+- Windows 11 como sistema anfitrión.
+- VMware Workstation 17.6.2 y la utilidad `vmrun`.
+- Windows PowerShell 5.1.
+- `curl.exe` 8.21.0.
+- `oha` 1.16.0.
+- MQTTX CLI 1.13.0.
+- `mosquitto_pub.exe` y `mosquitto_sub.exe` 2.1.2.
+- Una red host-only VMnet1 configurada como `192.168.58.0/24`.
+
+Las direcciones utilizadas en el entorno original fueron:
+| Caso | Configuración | Dirección |
+| --- | --- | --- |
+| HTTP | OSv base | `192.168.58.10` |
+| HTTP | OSv reducida | `192.168.58.11` |
+| HTTP | Linux | `192.168.58.12` |
+| MQTT | OSv base | `192.168.58.20` |
+| MQTT | Linux | `192.168.58.21` |
+
 ## Caso de estudio HTTP
 El primer caso consiste en un servidor HTTP/1.1 desarrollado específicamente para el TFG y ejecutado sobre tres configuraciones:
 - **OSv base**
@@ -97,6 +117,46 @@ Para cada combinación se conservan:
 - resumen de mensajes publicados y recibidos
 - muestras de recursos
 - medida de disponibilidad
+
+## Comprobación rápida de las aplicaciones
+Las siguientes pruebas permiten comprobar el funcionamiento de los servicios sin ejecutar la campaña experimental completa. La máquina correspondiente debe estar encendida y conectada a VMnet1.
+
+### HTTP
+Para comprobar OSv base:
+```text
+curl.exe -i http://192.168.58.10:8080/
+curl.exe -i http://192.168.58.10:8080/estado
+```
+Para comprobar OSv reducida o Linux deben sustituirse las direcciones anteriores por `192.168.58.11` o `192.168.58.12`, respectivamente.
+La petición a `/estado` debe devolver el código HTTP `200` y el cuerpo `OK`.
+
+### MQTT
+En una primera terminal se inicia el suscriptor:
+```text
+mosquitto_sub.exe `
+    -h 192.168.58.20 `
+    -p 1883 `
+    -V mqttv311 `
+    -t tfg/prueba `
+    -q 1 `
+    -v
+```
+En otra terminal se realiza la publicación:
+```text
+mosquitto_pub.exe `
+    -h 192.168.58.20 `
+    -p 1883 `
+    -V mqttv311 `
+    -t tfg/prueba `
+    -q 1 `
+    -m "OK"
+```
+
+El suscriptor debe mostrar:
+```text
+tfg/prueba OK
+```
+Para probar la máquina Linux debe sustituirse `192.168.58.20` por `192.168.58.21`.
 
 ## Ejecución de los scripts
 Los scripts fueron ejecutados desde **Windows PowerShell 5.1**.
